@@ -647,7 +647,7 @@ services:
 
   # OpenTelemetry Collector
   otelcol:
-    image: otel/opentelemetry-collector-contrib:0.82.0
+    image: otel/opentelemetry-collector-contrib:0.76.1
     platform: linux/arm64
     container_name: otel-col
     deploy:
